@@ -128,12 +128,12 @@ ai-assistant-platform/
 │   └── test_weather_api.py
 ├── .env.example 
 ├── .gitignore
+├── .dockerignore
 ├── Dockerfile
 ├── docker-compose.yml
 ├── pytest.ini
 ├── requirements.txt
-├── README.md
-└── ...
+└── README.md
 ```
 
 ## Требования
