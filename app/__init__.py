@@ -1,0 +1,1 @@
+from app.tasks.report_tasks import generate_github_report
