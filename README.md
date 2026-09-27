@@ -252,7 +252,7 @@ curl http://localhost:8000/weather/Moscow
   "city": "Moscow",
   "temperature": 18.7,
   "humidity": 55,
-  "description": "clear sky"
+  "description": "пасмурно"
 }
 ```
 
