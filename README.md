@@ -1,7 +1,7 @@
 # AI Assistant Platform
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-https://img.shields.io/badge/FastAPI-Latest-green
+![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green)
 ![Docker](https://img.shields.io/badge/Docker-Supported-blue)
 ![Pytest](https://img.shields.io/badge/Tests-5%20passed-success)
 
