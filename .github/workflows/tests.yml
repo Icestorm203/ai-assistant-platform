@@ -30,5 +30,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
+        env:
+          WEATHER_API_KEY: dummy
+          TELEGRAM_BOT_TOKEN: dummy
+          OPENROUTER_API_KEY: dummy
+          DEFAULT_LLM_MODEL: dummy/model
         run: |
           pytest -v

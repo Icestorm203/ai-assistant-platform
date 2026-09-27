@@ -1,7 +1,15 @@
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        env_file_encoding="utf-8",
+        extra="ignore",
+        case_sensitive=False,
+    )
+
+
     weather_api_key: str
     telegram_bot_token: str
     openrouter_api_key: str
@@ -12,9 +20,6 @@ class Settings(BaseSettings):
 
     api_base_url: str = "http://127.0.0.1:8000"
     telegram_proxy: str | None = None
-    
-    class Config:
-        env_file = ".env"
 
 
 settings = Settings()
